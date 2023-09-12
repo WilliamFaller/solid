@@ -1,11 +1,11 @@
 version: '3'
 
 services:
-  api-kafit-pg:
+  api-solid-pg:
     image: bitnami/postgresql
     ports:
       - 5432:5432
     environment:
       - POSTGRESQL_USERNAME=docker
       - POSTGRESQL_PASSWORD=docker
-      - POSTGRESQL_DATABASE=kafit
+      - POSTGRESQL_DATABASE=ignitenode03
